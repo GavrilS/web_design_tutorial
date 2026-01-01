@@ -5,7 +5,22 @@ body {
 }
 
 nav {
+    padding: 1em;
     display: flex;
+    /* column-gap: 1em; */
+    justify-content: space-between;
+}
+
+nav > div {
+    display: flex;
+}
+
+.logo-container {
+    margin-left: 1.5em;
+}
+
+.site-options {
+    margin-right: 1.5em;
 }
 
 nav > div > div > button {
