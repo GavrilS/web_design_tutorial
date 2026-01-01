@@ -4,19 +4,39 @@ body {
     color: white;
 }
 
-nav > div > button {
+nav {
+    display: flex;
+}
+
+nav > div > div > button {
     background-color: black;
     color: white;
     border: None;
     padding: 0.6em;
 }
 
-nav > div > button:hover {
+nav > div > div > button:hover {
     background-color: rgb(4, 4, 111);
 }
 
 #learn:hover {
-    background-color: rgb(107, 70, 2);
+    background-color: rgb(121, 79, 1);
+}
+
+#tools:hover {
+    background-color: rgb(77, 1, 77);
+}
+
+#about:hover {
+    background-color: rgb(1, 82, 1);
+}
+
+#search:hover {
+    background-color: rgba(255, 255, 255, 0.601);
+}
+
+#exit:hover {
+    background-color: rgba(255, 255, 255, 0.18);
 }
 
 .logo {
