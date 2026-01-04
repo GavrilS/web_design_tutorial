@@ -1,5 +1,5 @@
 body {
-    font: 1.2em / 1.5 sans-serif;
+    font: 1.1em / 1.3 sans-serif;
     background-color: black;
     color: white;
 }
@@ -141,7 +141,7 @@ nav > div > div > button:hover {
 .articles > div > div > a {
     text-decoration: none;
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .articles > div > div > a:hover {
@@ -151,4 +151,23 @@ nav > div > div > button:hover {
 
 .indent {
     text-indent: 1em;
+}
+
+.article-links {
+    border-left: solid 2px rgba(128, 128, 128, 0.671);
+}
+
+.article-links > div {
+    margin-left: 0.3em;
+}
+
+.article-links > div > a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+.article-links > div > a:hover {
+    text-decoration: underline;
+    color: rgb(168, 168, 244);
 }
