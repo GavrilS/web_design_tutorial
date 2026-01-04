@@ -4,9 +4,8 @@ body {
     color: white;
 }
 
-.page-header {
-    position: fixed;
-    top: 0;
+.nav-container {
+    position: sticky;
 }
 
 nav {
@@ -14,6 +13,7 @@ nav {
     display: flex;
     /* column-gap: 1em; */
     justify-content: space-between;
+    /* width: 100%; */
 }
 
 nav > div {
